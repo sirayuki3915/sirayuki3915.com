@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SNS</title>
+    <meta charset="uft-8">
+    <link rel="stylesheet" href="SNS_Style_day.css">
+</head>
+<body>
+    <button id="btn">night</button>
+    <script>
+        const btn = document.querySelector('#btn');
+        btn.addEventListener('click', function() {
+            const btnText = btn.textContent.trim().toLowerCase();
+            const link = document.querySelector('link');
+            if (btnText === 'night') {
+                link.href = 'SNS_style_night.css';
+                btn.textContent = 'day';
+            } else {
+                link.href = 'SNS_style_day.css';
+                btn.textContent = 'night';
+            }
+        })
+    </script>
+    <h1><a href="main.html">sirayuki의 홈페이지</a></h1>
+    <div id="Easter_egg">
+        <h4><a href="minato_aqua.html">미나토 아쿠아</a></h4>
+    </div>
+    <div id="grid"></div>
+        <div id="start">
+        <ol>    
+            <h3><a href="IP_adress.html">IP주소 확인</a></h3>
+            <h3><a href="SNS.html">자주 들어가는 SNS 사이트 모음</a></h3>
+            <h3><a href="API.html">공공 API 활용 공간</a></h3>
+            <h3><a href="test_answer.html">모의고사 채점기</a></h3>
+        </ol>
+        </div>
+    <h2>SNS</h2>
+    <div id="ex">
+        <img src="youtube.png" width="10%"><a href="">유튜브</a><br><br><br>
+        <img src="twitter.png" width="10%"><a href="">트위터</a><br><br><br>
+        <img src="GitHub.png" width="10%"><a href="">깃허브</a><br><br><br>
+        <img src="instagram.png" width="10%"><a href="">인스타그램</a><br><br><br>
+        <img src="naver_blog.png" width="10%"><a href="">네이버 블로그</a><br><br><br>
+        <img src="e-mail.png" alt="관리자에게 이메일 보내기" width="10%">
+            <a href="mailto:jdh04133@sirayuki3915.com" title="관리자에게 이메일 보내기">이메일 보내기</a><br><br><br>
+        <img src="facebook.png" width="10%"><a href="">페이스북</a><br><br><br>
+        <img src="twitch.png" width="10%"><a href="">트위치</a>
+    </div>
+</body>

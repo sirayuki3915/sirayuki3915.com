@@ -1,0 +1,60 @@
+#Easter_egg a {
+    text-decoration: none;
+    color: white;
+}
+#Easter_egg h4 {
+    border-right: 3px solid darkgray;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+}
+h4 {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-color: white;
+    color: black;
+}
+a {
+    color: black;
+    size: 30pt;
+    text-decoration: none;
+}
+button {
+    color: white;
+    background-color: black;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 3px solid rgba(56, 56, 56, 0.408);
+    margin: 0;
+    padding: 20px;
+}
+#start ol {
+    border-right: 3px solid rgba(56, 56, 56, 0.408);
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+}
+#grid {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+}
+#article {
+    padding-left: 25px;
+}
+#ex h3 {
+    text-decoration: none;
+    border-bottom: 5px solid gray;
+}
+#ex img {
+    padding: 50px;
+    margin: 10px;
+    border: 2px solid rgba(56, 56, 56, 0.408);
+}
+#ex a {
+    font-size: 50px;
+    font-style: initial;
+}
